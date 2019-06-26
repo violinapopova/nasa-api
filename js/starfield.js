@@ -1,5 +1,4 @@
-
-let speed = 20;
+let speed = 15;
 
 document.getElementById('speed-slider').addEventListener('input', function(e){
     speed = parseInt(e.target.value);

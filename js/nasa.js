@@ -8,12 +8,12 @@ function handleAFeedData({element_count, near_earth_objects}, afeedElement, afee
 
     afeedElement.innerHTML = Object.keys(near_earth_objects).map(date=>{
         return near_earth_objects[date].map(asteroid=>{
-            const id        = asteroid.id;
-            const name      = asteroid.name;
+            const id = asteroid.id;
+            const name = asteroid.name;
             const dangerous = asteroid.is_potentially_hazardous_asteroid;
             const magnitude = asteroid.absolute_magnitude_h;
-            const min       = asteroid.estimated_diameter.meters.estimated_diameter_min;
-            const max       = asteroid.estimated_diameter.meters.estimated_diameter_max;
+            const min = asteroid.estimated_diameter.meters.estimated_diameter_min;
+            const max = asteroid.estimated_diameter.meters.estimated_diameter_max;
             const close_approach_data = asteroid.close_approach_data.shift();
             const miss_distance = close_approach_data.miss_distance.kilometers;
 
