@@ -1,0 +1,17 @@
+$baseColor: white;
+
+h1, h2, #start, label {
+    color: $baseColor;
+}
+
+#speed-container {
+    position: fixed;
+    right: 2em;
+    bottom: 0;
+}
+
+table {
+    background: $baseColor;
+    margin-bottom: 2em;
+}
+

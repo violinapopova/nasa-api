@@ -1,0 +1,15 @@
+h1, h2, #start, label {
+  color: white;
+}
+
+#speed-container {
+  position: fixed;
+  right: 2em;
+  bottom: 0;
+}
+
+table {
+  background: white;
+  margin-bottom: 2em;
+}
+/*# sourceMappingURL=style.css.map */
